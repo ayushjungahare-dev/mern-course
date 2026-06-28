@@ -14,7 +14,7 @@ app.use(express.static('public'));
 app.use(express.urlencoded({ extended: true }));
 
 // ─── MONGODB CONNECTION ───────────────────────────────────────
-const MONGO_URI = 'mongodb://ayushjunghare14_db_user:to51VEDTIfp5At7C@ac-a9lsz80-shard-00-00.qah3qy7.mongodb.net:27017,ac-a9lsz80-shard-00-01.qah3qy7.mongodb.net:27017,ac-a9lsz80-shard-00-02.qah3qy7.mongodb.net:27017/?ssl=true&replicaSet=atlas-4j0nu2-shard-0&authSource=admin&appName=Cluster0';
+const MONGO_URI = 'mongodb://prajwalborkar1000_db_user:WtwXOFQCtGsgoHe0@ac-q0rtrrl-shard-00-00.uge9xx9.mongodb.net:27017,ac-q0rtrrl-shard-00-01.uge9xx9.mongodb.net:27017,ac-q0rtrrl-shard-00-02.uge9xx9.mongodb.net:27017/?ssl=true&replicaSet=atlas-11ha62-shard-0&authSource=admin&appName=Cluster0';
 
 mongoose.connect(MONGO_URI)
   .then(function() {
